@@ -55,16 +55,6 @@
           </svg>
         </button>
       </div>
-
-      <!-- <div class="modal-overlay=>mobile-menu" data-menu-open>
-        <div class="container modal=>mobile-menu-container">
-          <button class="mobile-menu-close" data-menu-close>Close</button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Address</address>
-          <div>Soc link</div>
-        </div>
-      </div> -->
-
       <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
           <button class="button-close-modal" data-menu-close type="button">
@@ -223,7 +213,8 @@
             <li class="person-item">
               <img
                 class="image-person"
-                src="./images/mark-guerrero.jpg"
+                srcset="./images/team/mark-guerrero@2x.jpg 2x"
+                src="./images/team/mark-guerrero.jpg"
                 alt="product designer's photo"
                 width="264"
               />
@@ -282,7 +273,8 @@
             <li class="person-item">
               <img
                 class="image-person"
-                src="./images/tom-ford.jpg"
+                srcset="./images/team/tom-ford@2x.jpg 2x"
+                src="./images/team/tom-ford.jpg"
                 alt="photo of the developer"
                 width="264"
               />
@@ -341,7 +333,8 @@
             <li class="person-item">
               <img
                 class="image-person"
-                src="./images/camila-garcia.jpg"
+                srcset="./images/team/camila-garcia@2x.jpg 2x"
+                src="./images/team/camila-garcia.jpg"
                 alt="photo of a marketer"
                 width="264"
               />
@@ -400,7 +393,8 @@
             <li class="person-item">
               <img
                 class="image-person"
-                src="./images/daniel-wilson.jpg"
+                srcset="./images/team/daniel-wilson@2x.jpg 2x"
+                src="./images/team/daniel-wilson.jpg"
                 alt="photo of a designer"
                 width="264"
               />
@@ -466,12 +460,36 @@
           <ul class="portfolio-list">
             <li class="prt-item">
               <div class="case-portfolio-overlay">
-                <img
-                  class="img-portfolio"
-                  src="./images/banking-app.jpg"
-                  alt="photo of the banking application"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/banking-app-desktop.jpg    1x,
+                      ./images/desktop/banking-app-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/tablet/banking-app-tablet.jpg    1x,
+                      ./images/tablet/banking-app-tablet@2x.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="
+                      ./images/mobile/banking-app-mobile.jpg    1x,
+                      ./images/mobile/banking-app-mobile@2x.jpg 2x
+                    "
+                    media="max-width: 767px"
+                  />
+
+                  <img
+                    class="img-portfolio"
+                    src="./images/banking-app.jpg"
+                    alt="photo of the banking application"
+                    width="360"
+                  />
+                </picture>
                 <p class="case-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -485,12 +503,34 @@
             </li>
             <li class="prt-item">
               <div class="case-portfolio-overlay">
-                <img
-                  class="img-portfolio"
-                  src="./images/cashless-payment.jpg"
-                  alt="photo of cashless payment by phone"
-                  width="360"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/cashless-payment-desktop.jpg    1x,
+                      ./images/desktop/cashless-payment-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/tablet/cashless-payment-tablet.jpg    1x,
+                      ./images/tablet/cashless-payment-tablet@2x.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="./images/mobile/cashless-payment-mobile.jpg 1x, ./images/mobile/cashless-payment-mobile@2x.jpg 2x"
+                    media="max-width: 767px"
+                  />
+
+                  <img
+                    class="img-portfolio"
+                    src="./images/cashless-payment.jpg"
+                    alt="photo of cashless payment by phone"
+                    width="360"
+                  />
+                </picture>
+
                 <p class="case-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App

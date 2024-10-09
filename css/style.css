@@ -448,6 +448,14 @@ button {
         display: block;
 }
 
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-mobile@2x.jpg);
+    }
+}
+
 
 
 @media screen and (min-width: 768px) {
