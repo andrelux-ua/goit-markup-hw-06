@@ -684,6 +684,7 @@ button {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .social-network-list {
@@ -691,7 +692,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-top: 8px;
+    
 }
 
 
@@ -713,7 +714,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-top: 8px;
+    
 }
 
 .social-network {
@@ -937,7 +938,9 @@ button {
 .footer-list-social-networ {
     display: flex;
     gap: 16px;
+    /* margin-bottom: 0; */
 }
+
 
 .social-network-item {
     width: 40px;
@@ -1069,7 +1072,7 @@ button {
 
     .second-block-text {
             text-align: left;
-            margin-bottom: 0;
+            margin-bottom: 16;
     }
 
 
