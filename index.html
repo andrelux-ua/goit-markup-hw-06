@@ -28,10 +28,20 @@
           </a>
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="./index.html" class="nav-link current">Studio</a>
+              <a class="header-list-link nav-link link" href="./index.html"
+                >Studio</a
+              >
             </li>
-            <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+            <li class="nav-item">
+              <a class="header-list-link nav-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="header-list-link nav-link link" href="./contacts.html"
+                >Contacts</a
+              >
+            </li>
           </ul>
         </nav>
 
@@ -68,10 +78,10 @@
                 <a href="./index.html" class="nav-link current">Studio</a>
               </li>
               <li class="nav-item-mobile">
-                <a href="" class="nav-link">Portfolio</a>
+                <a href="#" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item-mobile">
-                <a href="" class="nav-link">Contacts</a>
+                <a href="#" class="nav-link">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -128,7 +138,7 @@
             </li>
             <li class="social-network-item">
               <a
-                href="https://www.linkedin.com//"
+                href="https://www.linkedin.com/"
                 class="social-network"
                 target="_blank"
               >
@@ -258,7 +268,7 @@
                   </li>
                   <li class="social-network-item">
                     <a
-                      href="https://www.linkedin.com//"
+                      href="https://www.linkedin.com/"
                       class="social-network"
                       target="_blank"
                     >
@@ -318,7 +328,7 @@
                   </li>
                   <li class="social-network-item">
                     <a
-                      href="https://www.linkedin.com//"
+                      href="https://www.linkedin.com/"
                       class="social-network"
                       target="_blank"
                     >
@@ -378,7 +388,7 @@
                   </li>
                   <li class="social-network-item">
                     <a
-                      href="https://www.linkedin.com//"
+                      href="https://www.linkedin.com/"
                       class="social-network"
                       target="_blank"
                     >
@@ -438,7 +448,7 @@
                   </li>
                   <li class="social-network-item">
                     <a
-                      href="https://www.linkedin.com//"
+                      href="https://www.linkedin.com/"
                       class="social-network"
                       target="_blank"
                     >
@@ -589,8 +599,8 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/desktop/taxi-service-desktop.jpg  1x,
-                      ./images/tablet/taxi-service-tablet@2x.jpg 2x
+                      ./images/desktop/taxi-service-desktop.jpg    1x,
+                      ./images/desktop/taxi-service-desktop@2x.jpg 2x
                     "
                     media="(min-width: 1158px)"
                   />
@@ -768,7 +778,7 @@
             </li>
             <li class="social-network-item">
               <a
-                href="https://www.linkedin.com//"
+                href="https://www.linkedin.com/"
                 class="social-network footer-icon"
                 target="_blank"
               >
@@ -804,7 +814,11 @@
     <!-- === is-open === -->
     <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button class="button-close-modal" data-modal-close type="button">
+        <button
+          class="button-close-modal is-open"
+          data-modal-close
+          type="button"
+        >
           <svg class="button-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
@@ -888,5 +902,8 @@
 
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/portfolio-section.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/active-link.js"></script>
   </body>
 </html>
