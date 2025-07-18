@@ -44,8 +44,7 @@ goit-markup-hw-06/
 
 ## 📸 Live Demo
 
-> 🔗 [Live site link](https://andrelux-ua.github.io/goit-js-hw-06/) _(replace
-> with actual)_
+> 🔗 [Live site link](https://andrelux-ua.github.io/goit-markup-hw-06/)
 
 ---
 
@@ -60,13 +59,8 @@ Then open `index.html` in your browser.
 
 ---
 
-## 🚀 Planned Improvements
-
-- ***
-
 ## Author
 
-- Name:
-  [**andrelux-ua**](https://github.com/your-username/goit-markup-hw-06.git)
+- Name: [**andrelux-ua**](https://github.com/andrelux-ua)
 - Created as part of the
   [GoIT Fullstack Developer Course](https://goit.global/ua/fullstack/)

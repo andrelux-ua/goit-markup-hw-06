@@ -59,20 +59,6 @@
 //   refs.openModalBtn.addEventListener('click', toggleModal);
 //   refs.closeModalBtn.addEventListener('click', toggleModal);
 
-//   // Закриття при кліку поза модалкою
-//   refs.modal.addEventListener('click', event => {
-//     if (event.target === refs.modal) {
-//       toggleModal();
-//     }
-//   });
-
-//   // Закриття по ESC
-//   window.addEventListener('keydown', event => {
-//     if (event.key === 'Escape' && !refs.modal.classList.contains('is-open')) {
-//       toggleModal();
-//     }
-//   });
-
 //   function toggleModal() {
 //     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
 //     refs.modal.classList.toggle('is-open');
